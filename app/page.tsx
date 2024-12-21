@@ -105,7 +105,7 @@ export default function Home() {
   );
 
   return (
-    <div className="container mx-auto p-8">
+    <div className="container mx-auto p-8 bg-white">
       <h1 className="text-4xl font-bold text-center mb-8">All Star LFB</h1>
       <div className="flex flex-wrap -mx-4">
         {renderTable("Conférence Est", eastPlayers, "east")}
