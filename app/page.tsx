@@ -93,7 +93,7 @@ export default function Home() {
         </thead>
         <tbody>
           {players.map((player) => (
-            <tr key={player.rank} className={`hover:bg-gray-100 ${getRowClass(player.name, conference)}`}>
+            <tr key={player.rank} className={` ${getRowClass(player.name, conference)}`}>
               <td className="px-4 py-2 border text-center">{player.rank}</td>
               <td className="px-4 py-2 border">{player.name}</td>
               <td className="px-4 py-2 border text-center">{player.score}</td>
