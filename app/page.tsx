@@ -32,7 +32,7 @@ export default function Home() {
 
   // Charger les données des deux fichiers CSV au montage du composant
   useEffect(() => {
-    fetchCSVData("/all.csv", setEastPlayers);
+    fetchCSVData("/lf2.csv", setEastPlayers);
     fetchCSVData("/ouest.csv", setWestPlayers);
   }, []);
 
